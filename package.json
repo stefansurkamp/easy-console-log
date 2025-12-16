@@ -1,0 +1,52 @@
+{
+  "name": "easy-console-log",
+  "displayName": "Easy Console Log",
+  "description": "Quick console.log for selected text",
+  "version": "1.0.0",
+  "publisher": "Stefan Surkamp",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/your-repo-name"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.consoleLogSelected",
+        "title": "Console Log Selected Text"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.consoleLogSelected",
+        "key": "shift+cmd+l",
+        "mac": "shift+cmd+l",
+        "when": "editorTextFocus && editorHasSelection"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.90.0",
+    "@types/node": "16.x",
+    "typescript": "^5.1.6",
+    "eslint": "^8.45.0",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1"
+  }
+}
