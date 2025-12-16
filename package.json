@@ -2,8 +2,8 @@
   "name": "easy-console-log",
   "displayName": "Easy Console Log",
   "description": "Quick console.log for selected text",
-  "version": "1.0.1",
-  "publisher": "Stefan Surkamp",
+  "version": "1.0.2",
+  "publisher": "StefanSurkamp",
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
