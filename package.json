@@ -1,8 +1,8 @@
 {
-  "name": "easy-console-log",
-  "displayName": "Easy Console Log",
+  "name": "super-easy-console-log",
+  "displayName": "Super Easy Console Log",
   "description": "Quick console.log for selected text",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "StefanSurkamp",
   "icon": "images/icon.png",
   "repository": {
