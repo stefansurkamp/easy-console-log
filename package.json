@@ -7,7 +7,7 @@
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/your-repo-name"
+    "url": "https://github.com/stefansurkamp/easy-console-log"
   },
   "engines": {
     "vscode": "^1.90.0"
